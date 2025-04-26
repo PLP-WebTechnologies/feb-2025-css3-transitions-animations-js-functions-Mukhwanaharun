@@ -1,0 +1,18 @@
+magicButton {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+#magicButton.animate {
+    animation: spin 1s linear;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
